@@ -1,0 +1,12 @@
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\dbreezeDbApi.exe
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\appsettings.Development.json
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\appsettings.json
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\dbreezeDbApi.dll
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\dbreezeDbApi.deps.json
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\dbreezeDbApi.runtimeconfig.json
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\dbreezeDbApi.pdb
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\DBreeze.dll
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\Microsoft.OpenApi.dll
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

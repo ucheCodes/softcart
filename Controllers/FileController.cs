@@ -26,28 +26,27 @@ public class FileController : ControllerBase
             {
                 Images image = new Images();
 		        bool isSaved = false;
-                if (_webHostEnvironment != null)
+                string dir = Directory.GetCurrentDirectory();
+                string path = Path.Combine(dir,("Images\\uploads\\"));
+                //string path = _webHostEnvironment.WebRootPath+"\\Images\\";
+                if (!Directory.Exists(path))
                 {
-                    string path = _webHostEnvironment.WebRootPath+"\\Images\\";
-                    if (!Directory.Exists(path))
-                    {
-                        Directory.CreateDirectory(path);
-                    }             
-                    string filePath = path+Guid.NewGuid().ToString()+file.FileName;
-                    using (FileStream fileStream = System.IO.File.Create(filePath))
-                    {
-                        file.CopyTo(fileStream);
-                        fileStream.Flush();
-			            isSaved = true;
-                    }
-                    if(isSaved == true)
-                    {
-                                byte[] imageByte = System.IO.File.ReadAllBytes(filePath);
-                                image.Filepath = filePath;
-                                image.FileByte = imageByte;
-                                return Ok(image);
-                    }
-            }
+                    Directory.CreateDirectory(path);
+                }             
+                string filePath = path+Guid.NewGuid().ToString()+file.FileName;
+                using (FileStream fileStream = System.IO.File.Create(filePath))
+                {
+                    file.CopyTo(fileStream);
+                    fileStream.Flush();
+                    isSaved = true;
+                }
+                if(isSaved == true)
+                {
+                    byte[] imageByte = System.IO.File.ReadAllBytes(filePath);
+                    image.Filepath = filePath;
+                    image.FileByte = imageByte;
+                    return Ok(image);
+                }
                 return Ok("web host environment returned null");
             }
             else{return Ok("No File Uploaded");}

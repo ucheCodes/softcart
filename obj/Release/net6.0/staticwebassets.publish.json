@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Rg+Z+ghiPr9Lc6UsEZuC0/+xwITkaQtKoasLA8LzEyU=",
+  "Source": "dbreezeDbApi",
+  "BasePath": "_content/dbreezeDbApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "dbreezeDbApi\\wwwroot",
+      "Source": "dbreezeDbApi",
+      "ContentRoot": "D:\\Codes\\Html\\E-Commerce\\server\\dbreezeDbApi\\wwwroot\\",
+      "BasePath": "_content/dbreezeDbApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

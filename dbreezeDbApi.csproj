@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="dbreeze" Version="1.107.0" />
+    <PackageReference Include="MailKit" Version="3.4.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 

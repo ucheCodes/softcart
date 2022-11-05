@@ -27,3 +27,6 @@ D:\Codes\Html\E-Commerce\server\dbreezeDbApi\obj\Debug\net6.0\dbreezeDbApi.genru
 D:\Codes\Html\E-Commerce\server\dbreezeDbApi\obj\Debug\net6.0\ref\dbreezeDbApi.dll
 D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\DBreeze.dll
 D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\dbreezeDbApi.staticwebassets.runtime.json
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\MailKit.dll
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\MimeKit.dll
+D:\Codes\Html\E-Commerce\server\dbreezeDbApi\bin\Debug\net6.0\BouncyCastle.Crypto.dll
